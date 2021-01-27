@@ -1,3 +1,11 @@
+## Nanopi R2s Openwrt with Docker固件自动编译
+
+基于https://github.com/klever1988/nanopi-openwrt/releases 项目，修复编译，添加docker支持，根据个人习惯添加
+
+- ntfs-3g，nfs，frps，vsftp以及[京东签到](https://github.com/jerrykuku/luci-app-jd-dailybonus )等
+
+以下是原发布说明：
+
 ## Nanopi r1s r2s openwrt 固件自动编译
 
 ### 发布地址：
