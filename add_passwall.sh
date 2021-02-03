@@ -1,4 +1,6 @@
 echo -e '\nsrc-git lienol https://github.com/xiaorouji/openwrt-passwall' >> feeds.conf.default
+#修复xray-core
+sed -i 's/lang\/golang/packages\/lang\/golang/g' feeds/lienol/xray-core/Makefile
 ./scripts/feeds update lienol
 rm -rf feeds/lienol/lienol/ipt2socks
 rm -rf feeds/lienol/lienol/shadowsocksr-libev
