@@ -1,6 +1,6 @@
 echo -e '\nsrc-git lienol https://github.com/xiaorouji/openwrt-passwall' >> feeds.conf.default
 ./scripts/feeds update lienol
-sed -i 's/lang\/golang/packages\/lang\/golang/g' feeds/lienol/xray-core/Makefile
+#sed -i 's/lang\/golang/packages\/lang\/golang/g' feeds/lienol/xray-core/Makefile
 #rm -rf feeds/lienol/ipt2socks
 #rm -rf feeds/lienol/shadowsocksr-libev
 #rm -rf feeds/lienol/pdnsd-alt
